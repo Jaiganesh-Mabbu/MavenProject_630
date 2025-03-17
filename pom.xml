@@ -2,11 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.jaiganesh-mabbu</groupId> <!-- Replace with your group ID -->
-    <artifactId>MavenProject_630</artifactId> <!-- Replace with your artifact ID -->
-    <version>1.0-SNAPSHOT</version> <!-- Replace with your version -->
+    <groupId>com.jaiganesh.mavenbuild</groupId> <!-- Updated Group ID -->
+    <artifactId>MavenProject_630</artifactId> <!-- Updated Artifact ID -->
+    <version>1.0-SNAPSHOT</version> 
 
     <dependencies>
         <!-- Add your project dependencies here -->
@@ -14,17 +15,15 @@
 
     <build>
         <plugins>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.9.6</version>  <!-- Latest stable version -->
-            <configuration>
-              <source>21</source>
-              <target>21</target>
-              <release>21</release>  <!-- Ensures compatibility with Java 21 -->
-            </configuration>
-          
-        </plugin>
-  </plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
 </project>
